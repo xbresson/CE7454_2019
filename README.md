@@ -6,7 +6,7 @@ Deep learning course CE7454, 2019
 <br>
 <br>
 
-## Running Python notebooks from the cloud 
+## Running Python notebooks from the cloud (No GPU)
 <br>
 
 &nbsp;&nbsp;&nbsp; [click here]
