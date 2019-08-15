@@ -10,7 +10,7 @@ channels:
 dependencies:
 
   # basic
-  - python=3.6
+  - python=3.7
   - numpy
   - mkl
   - ipython
@@ -23,7 +23,7 @@ dependencies:
   - seaborn
 
   # deep learning
-  - pytorch=0.4.1
+  - pytorch=1.1
   - pip:
     - torchvision
 
