@@ -1,0 +1,26 @@
+{
+  "expt_name": "default",
+  "gpu_id": "1",
+
+  "train_filepath": "./data/tsp5_train.txt",
+  "val_filepath": "./data/tsp5_val.txt",
+  "test_filepath": "./data/tsp5_test.txt",
+
+  "num_nodes": 5,
+  "node_dim": 2,
+  "voc_nodes_in": 2,
+  "voc_edges": 2,
+
+  "beam_size": 10,
+
+  "hidden_dim": 50,
+  "num_layers": 2,
+
+  "max_epochs": 10,
+  "batch_size": 50,
+  "batches_per_epoch": 1000,
+  "accumulation_steps": 10,
+
+  "learning_rate": 0.001,
+  "decay_rate": 1.1
+}

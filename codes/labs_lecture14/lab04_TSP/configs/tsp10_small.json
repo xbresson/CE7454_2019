@@ -1,0 +1,24 @@
+{
+  "expt_name": "tsp10",
+  "gpu_id": "0",
+
+  "train_filepath": "./data/tsp10_small_concorde_train.txt",
+  "test_filepath": "./data/tsp10_small_concorde_test.txt",
+
+  "num_nodes": 10,
+  "node_dim": 2,
+  "voc_nodes_in": 2,
+  "voc_edges": 2,
+
+  "beam_size": 100,
+
+  "hidden_dim": 200,
+  "num_layers": 10,
+
+  "max_epochs": 20,
+  "batch_size": 100,
+  "batches_per_epoch": -1,
+
+  "learning_rate": 0.001,
+  "decay_rate": 1.1
+}
